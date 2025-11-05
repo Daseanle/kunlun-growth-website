@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en"> <!-- Default language set to English -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kunlun Growth - Your Partner in the Diamond Supply Chain</title>
-    <meta name="description" content="Kunlun Growth: Your Strategic Partner in the Global Lab-Grown Diamond Supply Chain. Sourcing certainty from the origin, delivering value across the globe.">
+    <title data-key="metaTitle">Kunlun Growth - Your Partner in the Diamond Supply Chain</title>
+    <meta name="description" data-key="metaDescription" content="Kunlun Growth: Your Strategic Partner in the Global Lab-Grown Diamond Supply Chain. Sourcing certainty from the origin, delivering value across the globe.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +17,18 @@
             <a href="#home" class="logo">Kunlun Growth</a>
             <nav>
                 <ul>
-                    <li><a href="#home">首页</a></li>
-                    <li><a href="#solutions">我们的解决方案</a></li>
-                    <li><a href="#about">关于我们</a></li>
-                    <li><a href="#contact">联系我们</a></li>
+                    <li><a href="#home" data-key="navHome">首页</a></li>
+                    <li><a href="#solutions" data-key="navSolutions">我们的解决方案</a></li>
+                    <li><a href="#about" data-key="navAbout">关于我们</a></li>
+                    <li><a href="#contact" data-key="navContact">联系我们</a></li>
                 </ul>
             </nav>
+            <div class="language-switcher">
+                <a href="#" lang="en" class="active-lang">EN</a>
+                <a href="#" lang="hi">HI</a>
+                <a href="#" lang="zh">ZH</a>
+                <a href="#" lang="ja">JA</a>
+            </div>
         </div>
     </header>
 
@@ -31,11 +37,11 @@
         <section id="home" class="hero">
             <div class="hero-overlay"></div>
             <div class="container hero-content">
-                <h1 class="hero-title">Kunlun Growth: Your Strategic Partner in the Global Lab-Grown Diamond Supply Chain.</h1>
-                <p class="hero-subtitle">Sourcing certainty from the origin, delivering value across the globe.</p>
+                <h1 class="hero-title" data-key="heroTitle">Kunlun Growth: Your Strategic Partner in the Global Lab-Grown Diamond Supply Chain.</h1>
+                <p class="hero-subtitle" data-key="heroSubtitle">Sourcing certainty from the origin, delivering value across the globe.</p>
                 <div class="hero-buttons">
-                    <a href="#solutions-rough" class="btn btn-primary">For Rough Diamond Partners (A计划)</a>
-                    <a href="#solutions-polished" class="btn btn-secondary">For Polished Diamond Clients (B计划)</a>
+                    <a href="#solutions-rough" class="btn btn-primary" data-key="btnRough">For Rough Diamond Partners (A计划)</a>
+                    <a href="#solutions-polished" class="btn btn-secondary" data-key="btnPolished">For Polished Diamond Clients (B计划)</a>
                 </div>
             </div>
         </section>
@@ -43,13 +49,13 @@
         <!-- Section 2: About Us -->
         <section id="about" class="about-section">
             <div class="container">
-                <h2 class="section-title">关于我们</h2>
+                <h2 class="section-title" data-key="aboutTitle">关于我们</h2>
                 <div class="about-content">
                     <div class="about-text">
-                        <h3>创始人简介: Marshall Lee</h3>
-                        <p>Marshall Lee 是 Kunlun Growth 的创始人，一位深植于中国、链接全球的培育钻石行业专家。凭借多年在中国源头供应链的深耕经验，Marshall 对HPHT培育钻石的生产、技术迭代和市场动态拥有深刻的洞察。他不仅理解中国制造商的优势与挑战，更具备广阔的全球视野，精准把握印度钻石加工中心的需求以及北美消费市场的脉搏。这种独特的跨文化、跨市场的专业背景，使他能够为您搭建起一座高效、透明且可靠的桥梁，将供应链的价值最大化。</p>
-                        <h3>公司使命</h3>
-                        <p>在全球培育钻石产业链经历重塑的变革时期，市场面临着前所未有的不确定性与机遇。Kunlun Growth 的使命，是成为连接东方与西方的关键节点。我们致力于通过专业的供应链管理、严格的品质控制和深刻的市场洞察，为全球合作伙伴提供稳定、高价值的供应链解决方案。我们相信，通过精准的匹配和深度的服务，我们可以帮助合作伙伴规避风险，抓住机遇，共同成长。</p>
+                        <h3 data-key="founderTitle">创始人简介: Marshall Lee</h3>
+                        <p data-key="founderDesc">Marshall Lee 是 Kunlun Growth 的创始人...</p>
+                        <h3 data-key="missionTitle">公司使命</h3>
+                        <p data-key="missionDesc">在全球培育钻石产业链经历重塑的变革时期...</p>
                     </div>
                 </div>
             </div>
@@ -58,30 +64,30 @@
         <!-- Section 3: Our Solutions -->
         <section id="solutions" class="solutions-section">
             <div class="container">
-                <h2 class="section-title">我们的解决方案</h2>
+                <h2 class="section-title" data-key="solutionsTitle">我们的解决方案</h2>
                 <div class="solutions-grid">
                     <!-- Solution A -->
                     <div id="solutions-rough" class="solution-card">
-                        <h3>供应链整合 (For Rough Diamond Manufacturers)</h3>
-                        <p class="target-market">专为印度客户</p>
-                        <h4>稳定、可追溯、高品质：您在供应链混乱时期的“安全港”</h4>
+                        <h3 data-key="solutionATitle">供应链整合 (For Rough Diamond Manufacturers)</h3>
+                        <p class="target-market" data-key="solutionATarget">专为印度客户</p>
+                        <h4 data-key="solutionASubtitle">稳定、可追溯、高品质：您在供应链混乱时期的“安全港”</h4>
                         <ul>
-                            <li><strong>稳定的供应保障:</strong> 我们与中国顶尖的HPHT生产商建立长期战略合作，确保您获得持续、可预测的毛坯供应。</li>
-                            <li><strong>严格的可追溯性:</strong> 我们提供的每一批毛坯都具备清晰的来源记录，为您的客户提供坚实的信心保证。</li>
-                            <li><strong>卓越的晶体品质:</strong> 我们只为您筛选晶体形态优良、瑕疵少的毛坯，从源头提升您的成品率和利润空间。</li>
-                            <li><strong>战略风险对冲:</strong> 我们是您可靠的“供应链B计划”，有效对冲地缘政治和市场波动带来的风险。</li>
+                            <li data-key="solutionA1"><strong>稳定的供应保障:</strong> 我们与中国顶尖的HPHT生产商建立长期战略合作...</li>
+                            <li data-key="solutionA2"><strong>严格的可追溯性:</strong> 我们提供的每一批毛坯都具备清晰的来源记录...</li>
+                            <li data-key="solutionA3"><strong>卓越的晶体品质:</strong> 我们只为您筛选晶体形态优良、瑕疵少的毛坯...</li>
+                            <li data-key="solutionA4"><strong>战略风险对冲:</strong> 我们是您可靠的“供应链B计划”...</li>
                         </ul>
                     </div>
                     <!-- Solution B -->
                     <div id="solutions-polished" class="solution-card">
-                        <h3>成品直销 (For Jewelry Brands & Wholesalers)</h3>
-                        <p class="target-market">专为北美客户</p>
-                        <h4>在地品控，管家服务：轻松采购，价格更优</h4>
+                        <h3 data-key="solutionBTitle">成品直销 (For Jewelry Brands & Wholesalers)</h3>
+                        <p class="target-market" data-key="solutionBTarget">专为北美客户</p>
+                        <h4 data-key="solutionBSubtitle">在地品控，管家服务：轻松采购，价格更优</h4>
                         <ul>
-                            <li><strong>在地品控:</strong> 我们的团队在中国源头为您执行严格的品质检验，确保每一颗钻石都100%符合您的订单要求。</li>
-                            <li><strong>管家式服务:</strong> 我们提供从采购、检验、物流到清关的全流程服务，让您能专注于市场和销售。</li>
-                            <li><strong>极具竞争力的价格:</strong> 我们剔除不必要的中间商环节，将中国制造的成本优势直接传递给您。</li>
-                            <li><strong>无缝的沟通体验:</strong> 我们立足北美，与您无时差、无障碍沟通，深刻理解您的商业需求。</li>
+                            <li data-key="solutionB1"><strong>在地品控:</strong> 我们的团队在中国源头为您执行严格的品质检验...</li>
+                            <li data-key="solutionB2"><strong>管家式服务:</strong> 我们提供从采购、检验、物流到清关的全流程服务...</li>
+                            <li data-key="solutionB3"><strong>极具竞争力的价格:</strong> 我们剔除不必要的中间商环节...</li>
+                            <li data-key="solutionB4"><strong>无缝的沟通体验:</strong> 我们立足北美，与您无时差、无障碍沟通...</li>
                         </ul>
                     </div>
                 </div>
@@ -91,42 +97,42 @@
         <!-- Section 4: Contact Us -->
         <section id="contact" class="contact-section">
             <div class="container">
-                <h2 class="section-title">联系我们</h2>
-                <p class="contact-subtitle">我们期待与您探讨合作机会。请填写下面的表单，或通过其他方式直接与我们联系。</p>
+                <h2 class="section-title" data-key="contactTitle">联系我们</h2>
+                <p class="contact-subtitle" data-key="contactSubtitle">我们期待与您探讨合作机会。请填写下面的表单，或通过其他方式直接与我们联系。</p>
                 <div class="contact-content">
                     <form action="#" method="POST" class="contact-form">
                         <div class="form-group">
-                            <label for="name">姓名 (Name)</label>
+                            <label for="name" data-key="formName">姓名 (Name)</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="company">公司名称 (Company Name)</label>
+                            <label for="company" data-key="formCompany">公司名称 (Company Name)</label>
                             <input type="text" id="company" name="company">
                         </div>
                         <div class="form-group">
-                            <label for="email">邮箱 (Email)</label>
+                            <label for="email" data-key="formEmail">邮箱 (Email)</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label>您感兴趣的服务 (Service of Interest)</label>
+                            <label data-key="formService">您感兴趣的服务 (Service of Interest)</label>
                             <select name="service">
-                                <option value="rough">供应链整合 (毛坯钻石)</option>
-                                <option value="polished">成品直销 (成品钻石)</option>
-                                <option value="other">其他 (Other)</option>
+                                <option value="rough" data-key="formServiceRough">供应链整合 (毛坯钻石)</option>
+                                <option value="polished" data-key="formServicePolished">成品直销 (成品钻石)</option>
+                                <option value="other" data-key="formServiceOther">其他 (Other)</option>
                             </select>
                         </div>
                         <div class="form-group full-width">
-                            <label for="message">留言 (Message)</label>
+                            <label for="message" data-key="formMessage">留言 (Message)</label>
                             <textarea id="message" name="message" rows="5"></textarea>
                         </div>
                         <div class="form-group full-width">
-                            <button type="submit" class="btn btn-submit">提交</button>
+                            <button type="submit" class="btn btn-submit" data-key="formSubmit">提交</button>
                         </div>
                     </form>
                     <div class="contact-info">
-                        <h3>联系信息</h3>
-                        <p><strong>企业邮箱:</strong><br> <a href="mailto:Marshall@wechatmedia.com">Marshall@wechatmedia.com</a></p>
-                        <p><strong>社交网络:</strong><br> <a href="https://www.linkedin.com/in/marshall-lee-020511116" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+                        <h3 data-key="contactInfoTitle">联系信息</h3>
+                        <p><strong data-key="contactInfoEmail">企业邮箱:</strong><br> <a href="mailto:Marshall@wechatmedia.com">Marshall@wechatmedia.com</a></p>
+                        <p><strong data-key="contactInfoSocial">社交网络:</strong><br> <a href="https://www.linkedin.com/in/marshall-lee-020511116" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
                     </div>
                 </div>
             </div>
@@ -135,9 +141,12 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Kunlun Growth. All Rights Reserved.</p>
+            <p data-key="footerText">&copy; 2025 Kunlun Growth. All Rights Reserved.</p>
         </div>
     </footer>
+    
+    <!-- Language Script -->
+    <script src="lang.js"></script>
 
 </body>
 </html>
