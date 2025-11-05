@@ -1,6 +1,6 @@
 // lang.js
 
-// 1. Translations Object
+// 1. Translations Object (Full Content Version)
 const translations = {
   // English Translations
   en: {
@@ -23,17 +23,17 @@ const translations = {
     solutionATitle: "Supply Chain Integration (For Rough Diamond Manufacturers)",
     solutionATarget: "For clients in India",
     solutionASubtitle: "Stability, Traceability, High Quality: Your 'Safe Harbor' in Times of Supply Chain Chaos.",
-    solutionA1: "<strong>Stable Supply Guarantee:</strong> We have established long-term strategic partnerships with top HPHT producers in China, ensuring you receive a continuous and predictable supply of rough diamonds.",
-    solutionA2: "<strong>Strict Traceability:</strong> Every batch of rough diamonds we provide comes with a clear record of origin, offering solid confidence to you and your clients.",
+    solutionA1: "<strong>Stable Supply Guarantee:</strong> We have established long-term strategic partnerships with top HPHT producers in China, ensuring you receive a continuous and predictable supply of rough diamonds, ending worries about raw material shortages.",
+    solutionA2: "<strong>Strict Traceability:</strong> Every batch of rough diamonds we provide comes with a clear record of origin, offering solid confidence to you and your clients in a market that increasingly emphasizes supply chain transparency.",
     solutionA3: "<strong>Excellent Crystal Quality:</strong> We specialize in HPHT technology and select only rough diamonds with superior crystal morphology and fewer inclusions, boosting your yield and profit margin from the source.",
-    solutionA4: "<strong>Strategic Risk Hedging:</strong> Partnering with Kunlun Growth means you have a reliable 'Supply Chain Plan B,' effectively hedging against geopolitical and market volatility risks.",
+    solutionA4: "<strong>Strategic Risk Hedging:</strong> Partnering with Kunlun Growth means you have a reliable 'Supply Chain Plan B,' effectively hedging against geopolitical and market volatility risks to keep your production lines running.",
     solutionBTitle: "Direct Sales of Polished Diamonds (For Jewelry Brands & Wholesalers)",
     solutionBTarget: "For clients in North America",
     solutionBSubtitle: "Local Quality Control, Concierge Service: Easy Sourcing, Better Prices.",
-    solutionB1: "<strong>On-Site Quality Control:</strong> Our team in China performs strict quality inspections to ensure every diamond meets your order requirements 100%.",
-    solutionB2: "<strong>Concierge Service:</strong> We offer a full-process 'concierge' service from sourcing, inspection, logistics, to customs clearance, allowing you to focus on your market and sales.",
-    solutionB3: "<strong>Highly Competitive Pricing:</strong> By integrating the supply chain, we eliminate unnecessary middlemen, passing the cost advantages of Chinese manufacturing directly to you.",
-    solutionB4: "<strong>Seamless Communication:</strong> Our team, based in North America, communicates with you without time differences or barriers, deeply understanding your business needs.",
+    solutionB1: "<strong>On-Site Quality Control:</strong> Our team in China performs strict quality inspections to ensure every diamond—from color and clarity to cut and fluorescence—meets your order requirements 100%. What you order is what you get.",
+    solutionB2: "<strong>Concierge Service:</strong> We offer a full-process 'concierge' service from sourcing, inspection, logistics, to customs clearance. Simply state your needs, and we handle all the tedious intermediate steps, allowing you to focus on your market and sales.",
+    solutionB3: "<strong>Highly Competitive Pricing:</strong> By integrating the supply chain, we eliminate unnecessary middlemen, passing the cost advantages of Chinese manufacturing directly to you, giving you a stronger price advantage in the North American market.",
+    solutionB4: "<strong>Seamless Communication:</strong> Our team, based in North America, communicates with you without time differences or language barriers, deeply understanding your business needs and market culture.",
     contactTitle: "Contact Us",
     contactSubtitle: "We look forward to exploring partnership opportunities with you. Please fill out the form below or contact us directly.",
     formName: "Name",
@@ -50,7 +50,7 @@ const translations = {
     contactInfoSocial: "Social Network:",
     footerText: "© 2025 Kunlun Growth. All Rights Reserved."
   },
-  // Hindi Translations
+  // Hindi Translations (Full Content)
   hi: {
     metaTitle: "कुनलुन ग्रोथ - डायमंड सप्लाई चेन में आपका पार्टनर",
     metaDescription: "कुनलुन ग्रोथ: वैश्विक लैब-निर्मित डायमंड सप्लाई चेन में आपका रणनीतिक साझेदार।",
@@ -71,17 +71,17 @@ const translations = {
     solutionATitle: "आपूर्ति श्रृंखला एकीकरण (रफ डायमंड निर्माताओं के लिए)",
     solutionATarget: "भारत में ग्राहकों के लिए",
     solutionASubtitle: "स्थिरता, पता लगाने की क्षमता, उच्च गुणवत्ता: आपूर्ति श्रृंखला अराजकता के समय में आपका 'सुरक्षित बंदरगाह'।",
-    solutionA1: "<strong>स्थिर आपूर्ति गारंटी:</strong> हमने चीन में शीर्ष एचपीएचटी उत्पादकों के साथ दीर्घकालिक रणनीतिक साझेदारी स्थापित की है, जिससे आपको रफ डायमंड की निरंतर और अनुमानित आपूर्ति सुनिश्चित होती है।",
-    solutionA2: "<strong>सख्त पता लगाने की क्षमता:</strong> हमारे द्वारा प्रदान किए गए रफ डायमंड के प्रत्येक बैच में मूल का एक स्पष्ट रिकॉर्ड होता है, जो आपको और आपके ग्राहकों को ठोस विश्वास प्रदान करता है।",
+    solutionA1: "<strong>स्थिर आपूर्ति गारंटी:</strong> हमने चीन में शीर्ष एचपीएचटी उत्पादकों के साथ दीर्घकालिक रणनीतिक साझेदारी स्थापित की है, जिससे आपको कच्चे माल की कमी की चिंता किए बिना रफ डायमंड की निरंतर और अनुमानित आपूर्ति सुनिश्चित होती है।",
+    solutionA2: "<strong>सख्त पता लगाने की क्षमता:</strong> हमारे द्वारा प्रदान किए गए रफ डायमंड के प्रत्येक बैच में मूल का एक स्पष्ट रिकॉर्ड होता है, जो आपको और आपके ग्राहकों को एक ऐसे बाजार में ठोस विश्वास प्रदान करता है जो आपूर्ति श्रृंखला पारदर्शिता पर तेजी से जोर देता है।",
     solutionA3: "<strong>उत्कृष्ट क्रिस्टल गुणवत्ता:</strong> हम एचपीएचटी तकनीक में विशेषज्ञ हैं और केवल बेहतर क्रिस्टल आकारिकी और कम समावेश वाले रफ डायमंड का चयन करते हैं, जिससे स्रोत से आपकी उपज और लाभ मार्जिन बढ़ता है।",
-    solutionA4: "<strong>रणनीतिक जोखिम हेजिंग:</strong> कुनलुन ग्रोथ के साथ साझेदारी का मतलब है कि आपके पास एक विश्वसनीय 'आपूर्ति श्रृंखला प्लान बी' है, जो भू-राजनीतिक और बाजार की अस्थिरता के जोखिमों को प्रभावी ढंग से हेज करता है।",
+    solutionA4: "<strong>रणनीतिक जोखिम हेजिंग:</strong> कुनलुन ग्रोथ के साथ साझेदारी का मतलब है कि आपके पास एक विश्वसनीय 'आपूर्ति श्रृंखला प्लान बी' है, जो आपकी उत्पादन लाइनों को चालू रखने के लिए भू-राजनीतिक और बाजार की अस्थिरता के जोखिमों को प्रभावी ढंग से हेज करता है।",
     solutionBTitle: "पॉलिश्ड डायमंड की सीधी बिक्री (ज्वेलरी ब्रांड और थोक विक्रेताओं के लिए)",
     solutionBTarget: "उत्तरी अमेरिका में ग्राहकों के लिए",
     solutionBSubtitle: "स्थानीय गुणवत्ता नियंत्रण, कंसीयज सेवा: आसान सोर्सिंग, बेहतर कीमतें।",
-    solutionB1: "<strong>ऑन-साइट गुणवत्ता नियंत्रण:</strong> चीन में हमारी टीम यह सुनिश्चित करने के लिए सख्त गुणवत्ता निरीक्षण करती है कि प्रत्येक हीरा आपके ऑर्डर की आवश्यकताओं को 100% पूरा करता है।",
-    solutionB2: "<strong>कंसीयज सेवा:</strong> हम सोर्सिंग, निरीक्षण, लॉजिस्टिक्स से लेकर सीमा शुल्क निकासी तक की पूरी प्रक्रिया 'कंसीयज' सेवा प्रदान करते हैं, जिससे आप अपने बाजार और बिक्री पर ध्यान केंद्रित कर सकते हैं।",
-    solutionB3: "<strong>अत्यधिक प्रतिस्पर्धी मूल्य निर्धारण:</strong> आपूर्ति श्रृंखला को एकीकृत करके, हम अनावश्यक बिचौलियों को खत्म करते हैं, जिससे चीनी विनिर्माण के लागत लाभ सीधे आपको मिलते हैं।",
-    solutionB4: "<strong>निर्बाध संचार:</strong> उत्तरी अमेरिका में स्थित हमारी टीम, समय के अंतर या बाधाओं के बिना आपसे संवाद करती है, आपकी व्यावसायिक जरूरतों को गहराई से समझती है।",
+    solutionB1: "<strong>ऑन-साइट गुणवत्ता नियंत्रण:</strong> चीन में हमारी टीम यह सुनिश्चित करने के लिए सख्त गुणवत्ता निरीक्षण करती है कि प्रत्येक हीरा—रंग और स्पष्टता से लेकर कट और प्रतिदीप्ति तक—आपके ऑर्डर की आवश्यकताओं को 100% पूरा करता है। जो आप ऑर्डर करते हैं, वही आपको मिलता है।",
+    solutionB2: "<strong>कंसीयज सेवा:</strong> हम सोर्सिंग, निरीक्षण, लॉजिस्टिक्स से लेकर सीमा शुल्क निकासी तक की पूरी प्रक्रिया 'कंसीयज' सेवा प्रदान करते हैं। बस अपनी जरूरतें बताएं, और हम सभी थकाऊ मध्यवर्ती कदमों को संभालते हैं, जिससे आप अपने बाजार और बिक्री पर ध्यान केंद्रित कर सकते हैं।",
+    solutionB3: "<strong>अत्यधिक प्रतिस्पर्धी मूल्य निर्धारण:</strong> आपूर्ति श्रृंखला को एकीकृत करके, हम अनावश्यक बिचौलियों को खत्म करते हैं, जिससे चीनी विनिर्माण के लागत लाभ सीधे आपको मिलते हैं, और आपको उत्तरी अमेरिकी बाजार में एक मजबूत मूल्य लाभ मिलता है।",
+    solutionB4: "<strong>निर्बाध संचार:</strong> उत्तरी अमेरिका में स्थित हमारी टीम, समय के अंतर या भाषा की बाधाओं के बिना आपसे संवाद करती है, आपकी व्यावसायिक जरूरतों और बाजार संस्कृति को गहराई से समझती है।",
     contactTitle: "संपर्क करें",
     contactSubtitle: "हम आपके साथ साझेदारी के अवसरों का पता लगाने के लिए उत्सुक हैं। कृपया नीचे दिया गया फॉर्म भरें या हमसे सीधे संपर्क करें।",
     formName: "नाम",
@@ -98,7 +98,7 @@ const translations = {
     contactInfoSocial: "सामाजिक नेटवर्क:",
     footerText: "© 2025 कुनलुन ग्रोथ। सर्वाधिकार सुरक्षित।"
   },
-  // Chinese Translations
+  // Chinese Translations (Full Content)
   zh: {
     metaTitle: "昆仑成长 - 您在钻石供应链中的合作伙伴",
     metaDescription: "昆仑成长：您在全球培育钻石供应链中的战略合作伙伴。",
@@ -112,11 +112,4 @@ const translations = {
     btnPolished: "致成品钻石客户 (B计划)",
     aboutTitle: "关于我们",
     founderTitle: "创始人简介: Marshall Lee",
-    founderDesc: "Marshall Lee 是 Kunlun Growth 的创始人，一位深植于中国，链接全球的培育钻石行业专家。凭借多年在中国源头供应链的深耕经验，Marshall 对HPHT培育钻石的生产、技术迭代和市场动态拥有深刻的洞察。他不仅理解中国制造商的优势与挑战，更具备广阔的全球视野，精准把握印度钻石加工中心的需求以及北美消费市场的脉搏。这种独特的跨文化、跨市场的专业背景，使他能够为您搭建起一座高效、透明且可靠的桥梁，将供应链的价值最大化。",
-    missionTitle: "公司使命",
-    missionDesc: "在全球培育钻石产业链经历重塑的变革时期，市场面临着前所未有的不确定性与机遇。Kunlun Growth 的使命，是成为连接东方与西方的关键节点。我们致力于通过专业的供应链管理、严格的品质控制和深刻的市场洞察，为全球合作伙伴提供稳定、高价值的供应链解决方案。我们相信，通过精准的匹配和深度的服务，我们可以帮助合作伙伴规避风险，抓住机遇，共同成长。",
-    solutionsTitle: "我们的解决方案",
-    solutionATitle: "供应链整合 (服务毛坯钻石制造商)",
-    solutionATarget: "专门针对印度客户",
-    solutionASubtitle: "稳定、可追溯、高品质：您在供应链混乱时期的“安全港”。",
-    solutionA1: "<strong>稳定的供应保障:</strong> 我们与中
+    founderDesc: "Marshall Lee 是 Kunlun Growth 的创始人，一位深植于中国，链接全球的培育钻石
