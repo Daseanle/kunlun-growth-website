@@ -1,6 +1,6 @@
-// lang.js
+// lang.js (Final Robust Version)
 
-// 1. Translations Object (Full Content Version)
+// 1. Translations Object
 const translations = {
   // English Translations
   en: {
@@ -198,52 +198,62 @@ const translations = {
 
 // 2. Language Detection and Switching Logic
 document.addEventListener('DOMContentLoaded', () => {
+  // Defensive check: ensure the switcher element exists
   const languageSwitcher = document.querySelector('.language-switcher');
+  if (!languageSwitcher) {
+    console.error("Fatal Error: Language switcher element not found in the HTML.");
+    return; // Stop the script if the element is missing
+  }
+
   const langLinks = languageSwitcher.querySelectorAll('a');
   const supportedLangs = ['en', 'hi', 'zh', 'ja'];
   let currentLang;
 
   const setLanguage = (lang) => {
-    // Check if the language is supported, default to 'en' if not
-    if (!supportedLangs.includes(lang)) {
-      lang = 'en'; 
-    }
+    // Default to English if language is not supported
+    currentLang = supportedLangs.includes(lang) ? lang : 'en';
     
-    document.documentElement.setAttribute('lang', lang);
+    document.documentElement.setAttribute('lang', currentLang);
 
+    // Update all text elements
     document.querySelectorAll('[data-key]').forEach(element => {
       const key = element.getAttribute('data-key');
-      // A robust check to prevent errors if a key is missing in the future
-      if (translations[lang] && translations[lang][key]) {
-        element.innerHTML = translations[lang][key];
+      if (translations[currentLang] && translations[currentLang][key]) {
+        element.innerHTML = translations[currentLang][key];
       }
     });
     
+    // Update the active class on buttons
     langLinks.forEach(link => {
-      link.classList.toggle('active-lang', link.getAttribute('lang') === lang);
+      link.classList.toggle('active-lang', link.getAttribute('lang') === currentLang);
     });
 
-    localStorage.setItem('language', lang);
-    currentLang = lang;
+    // Save preference to local storage
+    localStorage.setItem('language', currentLang);
   };
 
+  // Attach a single, reliable click event listener
   languageSwitcher.addEventListener('click', (e) => {
     e.preventDefault();
-    const lang = e.target.getAttribute('lang');
-    if (lang && lang !== currentLang) {
-      setLanguage(lang);
+    const targetLang = e.target.getAttribute('lang');
+    // Check if the clicked element is a language link and not the currently active language
+    if (targetLang && targetLang !== currentLang) {
+      setLanguage(targetLang);
     }
   });
 
-  // Initial language detection logic
+  // --- Initial Language Detection ---
   const savedLang = localStorage.getItem('language');
   const browserLang = navigator.language.slice(0, 2);
 
   if (savedLang && supportedLangs.includes(savedLang)) {
+    // 1. User has a saved preference
     setLanguage(savedLang);
   } else if (supportedLangs.includes(browserLang)) {
+    // 2. Browser language is supported
     setLanguage(browserLang);
   } else {
+    // 3. Default to English
     setLanguage('en');
   }
 });
